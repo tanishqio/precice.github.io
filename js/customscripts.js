@@ -1,7 +1,8 @@
-$('#mysidebar').height($(".nav").height());
+
 
 
 $( document ).ready(function() {
+    $('#mysidebar').height($(".nav").height());
 
     //this script says, if the height of the viewport is greater than 800px, then insert affix class, which makes the nav bar float in a fixed
     // position as your scroll. if you have a lot of nav items, this height may not work for you.
